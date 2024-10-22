@@ -17,5 +17,5 @@ data class AuthRequest(
 
 data class AuthResponse(
     val code: String,
-    val data: String? // Adjust based on actual response structure
+    val data: String?
 )
